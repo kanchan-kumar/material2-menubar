@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
-import { AppComponent } from './app.component';
+import { MenuBarComponent } from './menu-bar.component';
+import { MenuComponent } from './components/menu/menu.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    MenuBarComponent,
+    MenuComponent,
   ],
   imports: [
     BrowserModule,
@@ -15,6 +17,6 @@ import { AppComponent } from './app.component';
     HttpModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [MenuBarComponent]
 })
-export class AppModule { }
+export class MenuBarModule { }

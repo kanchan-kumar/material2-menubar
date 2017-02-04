@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+
+.a2kMenu {
+    background: lightblue;
+}
+
+.a2kmenu-item {
+    color: white;
+}
+
+.a2kmenu-menu-inner {
+    padding: 5px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    border: 1px outset;
+}

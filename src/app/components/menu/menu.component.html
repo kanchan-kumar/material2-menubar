@@ -1,0 +1,6 @@
+<div [ngStyle]="{'max-width': menuWidth+'px', 'max-height': menuHeight+'px', 'zindex': zindex}" [ngClass]="menuClass">
+    <div *ngFor="let item of menuItems" [ngClass]="menuSubClass">
+        <div [ngClass]="menuItemClass"> {{item.display}} </div>
+        <div> >> </div>
+    </div>
+</div>
